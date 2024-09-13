@@ -1,0 +1,98 @@
+/* General styling reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Body styling */
+body {
+    background-color: rgb(9, 9, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container and box */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Logo styling */
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.login-box {
+    background-color: rgb(2, 6, 23);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Header and paragraph styling */
+h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #6b7280;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #374151;
+    background-color: #111827;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Login button styling */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.login-btn:hover {
+    background-color: #e5e5e5;
+}
